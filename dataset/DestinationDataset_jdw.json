@@ -1,0 +1,54 @@
+{
+	"name": "DestinationDataset_jdw",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsSynapseAnalytics1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [
+			{
+				"name": "_id_oid",
+				"type": "varchar"
+			},
+			{
+				"name": "username",
+				"type": "varchar"
+			},
+			{
+				"name": "name",
+				"type": "varchar"
+			},
+			{
+				"name": "address",
+				"type": "varchar"
+			},
+			{
+				"name": "birthdate_date",
+				"type": "varchar"
+			},
+			{
+				"name": "email",
+				"type": "varchar"
+			},
+			{
+				"name": "active",
+				"type": "varchar"
+			},
+			{
+				"name": "accounts",
+				"type": "varchar"
+			},
+			{
+				"name": "_ts",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "customers"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

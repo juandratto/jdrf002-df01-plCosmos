@@ -1,0 +1,278 @@
+{
+	"name": "SourceDataset_jdw",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "jdrf_cosmos_sql01_dev",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {
+			"type": "object",
+			"properties": {
+				"_id": {
+					"type": "object",
+					"properties": {
+						"$oid": {
+							"type": "string"
+						}
+					}
+				},
+				"username": {
+					"type": "string"
+				},
+				"name": {
+					"type": "string"
+				},
+				"address": {
+					"type": "string"
+				},
+				"birthdate": {
+					"type": "object",
+					"properties": {
+						"$date": {
+							"type": "null"
+						}
+					}
+				},
+				"email": {
+					"type": "string"
+				},
+				"active": {
+					"type": "boolean"
+				},
+				"accounts": {
+					"type": "array",
+					"items": {
+						"type": "integer"
+					}
+				},
+				"tier_and_details": {
+					"type": "object",
+					"properties": {
+						"0df078f33aa74a2e9696e0520c1a828a": {
+							"type": "object",
+							"properties": {
+								"tier": {
+									"type": "string"
+								},
+								"id": "{\r\n  \"type\": \"string\"\r\n}",
+								"active": {
+									"type": "boolean"
+								},
+								"benefits": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								}
+							}
+						},
+						"699456451cc24f028d2aa99d7534c219": {
+							"type": "object",
+							"properties": {
+								"tier": {
+									"type": "string"
+								},
+								"benefits": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								},
+								"active": {
+									"type": "boolean"
+								},
+								"id": "{\r\n  \"type\": \"string\"\r\n}"
+							}
+						},
+						"c06d340a4bad42c59e3b6665571d2907": {
+							"type": "object",
+							"properties": {
+								"tier": {
+									"type": "string"
+								},
+								"benefits": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								},
+								"active": {
+									"type": "boolean"
+								},
+								"id": "{\r\n  \"type\": \"string\"\r\n}"
+							}
+						},
+						"5d6a79083c26402bbef823a55d2f4208": {
+							"type": "object",
+							"properties": {
+								"tier": {
+									"type": "string"
+								},
+								"benefits": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								},
+								"active": {
+									"type": "boolean"
+								},
+								"id": "{\r\n  \"type\": \"string\"\r\n}"
+							}
+						},
+						"b754ec2d455143bcb0f0d7bd46de6e06": {
+							"type": "object",
+							"properties": {
+								"tier": {
+									"type": "string"
+								},
+								"benefits": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								},
+								"active": {
+									"type": "boolean"
+								},
+								"id": "{\r\n  \"type\": \"string\"\r\n}"
+							}
+						},
+						"a15baf69a759423297f11ce6c7b0bc9a": {
+							"type": "object",
+							"properties": {
+								"tier": {
+									"type": "string"
+								},
+								"benefits": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								},
+								"active": {
+									"type": "boolean"
+								},
+								"id": "{\r\n  \"type\": \"string\"\r\n}"
+							}
+						},
+						"69f8b6a3c39c42edb540499ee2651b75": {
+							"type": "object",
+							"properties": {
+								"tier": {
+									"type": "string"
+								},
+								"benefits": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								},
+								"active": {
+									"type": "boolean"
+								},
+								"id": "{\r\n  \"type\": \"string\"\r\n}"
+							}
+						},
+						"c85df12c2e394afb82725b16e1cc6789": {
+							"type": "object",
+							"properties": {
+								"tier": {
+									"type": "string"
+								},
+								"benefits": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								},
+								"active": {
+									"type": "boolean"
+								},
+								"id": "{\r\n  \"type\": \"string\"\r\n}"
+							}
+						},
+						"07d516cfd7fc4ec6acf175bb78cb98a2": {
+							"type": "object",
+							"properties": {
+								"tier": {
+									"type": "string"
+								},
+								"benefits": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								},
+								"active": {
+									"type": "boolean"
+								},
+								"id": "{\r\n  \"type\": \"string\"\r\n}"
+							}
+						},
+						"4c207e65857742f89d8155139b24c0f0": {
+							"type": "object",
+							"properties": {
+								"tier": {
+									"type": "string"
+								},
+								"benefits": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								},
+								"active": {
+									"type": "boolean"
+								},
+								"id": "{\r\n  \"type\": \"string\"\r\n}"
+							}
+						},
+						"c04ee1d7093449148a3cc3bbca398529": {
+							"type": "object",
+							"properties": {
+								"tier": {
+									"type": "string"
+								},
+								"benefits": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								},
+								"active": {
+									"type": "boolean"
+								},
+								"id": "{\r\n  \"type\": \"string\"\r\n}"
+							}
+						},
+						"1e64a51089c54d08911baf77be6b3713": {
+							"type": "object",
+							"properties": {
+								"tier": {
+									"type": "string"
+								},
+								"benefits": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								},
+								"active": {
+									"type": "boolean"
+								},
+								"id": "{\r\n  \"type\": \"string\"\r\n}"
+							}
+						}
+					}
+				}
+			}
+		},
+		"typeProperties": {
+			"collectionName": "customers"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}
